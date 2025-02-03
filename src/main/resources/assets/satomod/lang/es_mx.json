@@ -1,4 +1,9 @@
 {
-  "item.satomod.sapphire": "Safiro",
+  "item.satomod.sapphire": "Zafiro",
+
+  "block.satomod.sapphire_block": "Bloque de zafiro",
+  "block.satomod.raw_sapphire_block": "Bloque de zafiro crudo",
+
   "creativetab.tutorial_tab": "Sato mod"
+
 }

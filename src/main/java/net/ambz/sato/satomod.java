@@ -1,6 +1,7 @@
 package net.ambz.sato;
 
 import com.mojang.logging.LogUtils;
+import net.ambz.sato.block.ModBlocks;
 import net.ambz.sato.item.ModCreativeModTabs;
 import net.ambz.sato.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class satomod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
