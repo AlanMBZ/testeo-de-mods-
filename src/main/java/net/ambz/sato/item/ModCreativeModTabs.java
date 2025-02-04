@@ -23,9 +23,13 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE.get());
+
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                     })
                     .build());
 
